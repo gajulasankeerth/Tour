@@ -1,0 +1,48 @@
+.flex-container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("src\assets\MicrosoftTeams-image (5).png");
+}
+.atag{
+    display:block
+}
+.contain-atag{
+    flex: 0 0 900px;
+    display: flex;
+    align-items:  flex-end;
+    justify-content: flex-end; 
+}
+.containanc{
+    margin: 20px;
+}
+.logo{
+     flex: 0 0 130px;
+}
+.logout{
+    flex: 0 0 100px;
+}
+a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: larger;
+    padding-bottom: 10px;
+   
+}
+a:hover { 
+    background: rgb(221, 221, 221); 
+    border-radius: 2%;
+}
+
+.red{
+    color: rgb(233, 38, 4);
+    border-bottom: 2px solid rgb(233, 38, 4);
+}
+.blue{
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+.green{
+    color:green;
+    border-bottom: 2px solid green; 
+}
